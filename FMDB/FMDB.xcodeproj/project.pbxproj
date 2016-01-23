@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3732FE451C53B2CA008F9038 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3732FE441C53B2CA008F9038 /* DetailsViewController.m */; };
 		8165FEF71C50D8EC005C9920 /* MBProgressHUD+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8165FEDD1C50D8EC005C9920 /* MBProgressHUD+HUD.m */; };
 		8165FEF81C50D8EC005C9920 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8165FEE01C50D8EC005C9920 /* MainViewController.m */; };
 		8165FEF91C50D8EC005C9920 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8165FEE21C50D8EC005C9920 /* MoreViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3732FE431C53B2CA008F9038 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		3732FE441C53B2CA008F9038 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		392E691A72D6F3B63F5770B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAA5D9F326AA5AC55264215 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6647FCDC1C6CE5DF2AEAE5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				8165FEE41C50D8EC005C9920 /* RootViewController.m */,
 				816F632E1C51CA8800B391A1 /* ProfileViewController.h */,
 				816F632F1C51CA8800B391A1 /* ProfileViewController.m */,
+				3732FE431C53B2CA008F9038 /* DetailsViewController.h */,
+				3732FE441C53B2CA008F9038 /* DetailsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 			files = (
 				816F633B1C51FDB600B391A1 /* ProfileView.m in Sources */,
 				8165FEFB1C50D8EC005C9920 /* CacheTool.m in Sources */,
+				3732FE451C53B2CA008F9038 /* DetailsViewController.m in Sources */,
 				816EA4E41C4F28AC00F73143 /* AppDelegate.m in Sources */,
 				8165FEF71C50D8EC005C9920 /* MBProgressHUD+HUD.m in Sources */,
 				8165FEFE1C50D8EC005C9920 /* BookResult.m in Sources */,

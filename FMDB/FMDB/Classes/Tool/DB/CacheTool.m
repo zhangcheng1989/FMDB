@@ -58,9 +58,7 @@ static FMDatabase *db;
 }
 
 + (BOOL)delBook:(NSInteger)ids{
-  
-    NSString *sql = [NSString stringWithFormat:@" delete from book where id = %li",ids];
-    return [db executeUpdate:sql];
+    return [db executeUpdate:@" delete  from book  where id = ? ; ",[NSString stringWithFormat:@"%li",ids]];
 }
 
 @end
